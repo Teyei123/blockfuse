@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: fixed (1,152px);
+    height: fixed (81px);
+    justify-content: space-around;
+    border-radius: 50px;
+    top: 100px;
+    left: 144px;
+    padding: 10px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.right-image {
+    width: 870px; 
+    height: 711px; 
+    top: 65px;
+    left: 1000px;
+    position: absolute;
+    transform: rotate(-180deg);
+}
+
+.content{
+    width: fixed (709px);
+    height: hug (325px);
+    top: 349px;
+    left: 144px;
+    gap: 24px; 
+    position: absolute; 
+}
+
+span{
+    color: purple;
+    font-weight: 700;
+    size: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.logo, img{
+    width: 50px;
+    height: 50px;
+}
+
+button{
+    width: hug(1000px);
+    height: hug(43px);
+    border: 1px solid purple;
+    background-color: purple;
+    border-radius: 100px;
+    color: white;
+}
+
+button, p{
+    margin: 0 12px;
+}
+
+.links{
+    display: flex;
+}
+
+.links, a{
+    position: relative;
+    font-size: 1.2rem;
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 550px;
+    transition: 0.3s linear;
+}
+
+.up{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+h1{
+    width: fill (709px); 
+    height: hug (144px); 
+    gap: 8px; 
+}
+
+h1{
+    font-family: roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 2px;
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 500px;
+}
+
+.blisk{
+    background: #D1C1FF33;
+    width: 1440px;
+    height: 759px;
+    top: 700px;
+    padding: 50px 10px;
+    gap: 10px;
+    border: 5px solid transparent;
+    position: absolute; 
+}
+
+.learn{
+    position: absolute;
+    width: 1154px;
+    height: 408px;
+    top: 1600px;
+    left: 144px;
+    text-align: center;
+}
+
+.boxes{
+   display: flex;
+   /* flex-direction: wrap; */
+   flex-wrap: wrap;
+   /* justify-content: center; */
+   line-height: 40px;
+   text-align: center;
+}
+
+.box-one, .box-two, .box-three{
+    border: 1px solid black;
+    width: 25%;
+    margin: 5px;
+    border-radius: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+h3{
+    width: 471px;
+    height: 51px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 51.04px;
+    left: 500px;
+}
+
+.test{
+    font-family: 'Roboto Slab', serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.46px;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.done{
+    font-family: 'Roboto Slab', serif;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 43.52px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.lorem{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.repin{
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.1px;
+    text-align: center;
+}
+
+.prof{
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.15px;
+    text-align: center;
+}
+
+.nested{
+        width: 1152px; 
+        height: 489px; 
+        top: 1850px;
+        left: 144px;
+        position: absolute;
+}
+
+.faq{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.75px;
+    text-align: center;
+}
+
+.every{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26.38px;
+    text-align: center;
+}
+
+.what{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.75px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.pass{
+    width: fill (1424px);
+    height: 129px;
+}
+
+.sect{
+    width: fill (1030px);
+    height: hug(117px); 
+    padding: 32px 0; 
+    gap: 22px;
+    border: 0 0 1px 0;
+}
+
+.all{
+    width: fixed(1440px);
+    height: hug (1035px);
+    top: 2150px;
+    left: 10px;
+    padding: 86px 8px;
+    position: absolute; 
+}
+
+.mens{
+    display: flex;
+}
+
+.men{
+    position: relative;
+    font-size: 1.2rem;
+    color: black;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 550px;
+    transition: 0.3s linear;   
+}
+.icons{
+    display: flex;
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    padding: 2.84px 0 2.86px 0;
+    box-shadow: 0px 4px 25px 0px rgba(208, 163, 255, 0.2);
+}
+
+.email{
+    width: 179px;
+    height: 18px;
+    font-family: 'Space Grotesk', sans-serif; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.86px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sub{
+    width: 278px;
+    height: 111px;
+    margin: 12px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 27px
+}
+
+footer{
+    width: hug (1152px); 
+    height: hug (172px);
+    display: flex;
+    top: 3100px;
+    left: 144px;
+    padding: 8px 0 0 0;
+    gap: 8px;
+    position: absolute;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+}
